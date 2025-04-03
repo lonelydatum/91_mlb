@@ -1,0 +1,27 @@
+@import '../../../_common/styles/common.scss';
+@import '../../../_common/styles/size_320x50.scss';
+
+
+
+
+
+#bars{
+	@include pos(52, -25);
+	.bar_0{
+		width: 66px !important;
+		left: -58px;
+	}
+}
+
+#bars2{
+	@include pos(52, 0);
+	.bar_0{
+		width: 71px !important;
+		left: -51px;
+	}
+}
+
+.t1, .t2, .t3{
+	-webkit-filter:none;
+	filter: none;
+}

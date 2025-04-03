@@ -1,0 +1,11 @@
+@import '../../../_common/styles/common.scss';
+@import '../../../_common/styles/size_160x600.scss';
+
+
+
+
+.hero{
+	img{
+		@include pos-scale(0, 0, .5);	
+	}
+}

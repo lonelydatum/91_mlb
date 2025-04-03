@@ -1,0 +1,35 @@
+
+
+#banner{
+ width: 160px;
+ height: 600px;
+ 
+}
+
+#olg{
+	width: 87px;
+	height: 49px;
+	@include pos(0, 554);
+}
+
+
+#legalBtn{	
+	@include pos(95, 4);	
+	width: 72px;	
+}
+
+
+
+
+
+
+.hero{
+	width: 142px;
+	height: 216px;
+	
+	overflow: hidden;
+	@include pos(10, 201);
+	img{
+		@include pos-scale(-29, -17, .85);	
+	}
+}

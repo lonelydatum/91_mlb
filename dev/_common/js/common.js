@@ -42,15 +42,23 @@ const  nba_plus = {
 }
 
 
+const  mlb = {
+	t1: 2.3,
+	t2: 1.9,
+	t3: 1,
+}
+
+
 let READ = {
 nhl,nba
 }
 READ["nba-plus"] = nba_plus
 READ["nhl-plus"] = nhl_plus
+READ["mlb"] = mlb
 
 
 READ = READ[universalBanner.name]
-console.log(READ);
+
 
 
 
@@ -81,23 +89,21 @@ function start_landscape(vh={x:-size.w}){
 	tl.from('.logo', {opacity:0, duration:.3});	
 	
 	
-	if(universalBanner.name==="nhl-plus"){
-		tl.to([".t1"], {duration:.3, opacity:0}, `+=${READ.t1}`)
-		tl.from('.t2', stag(vh), "+=.3");	
-		tl.to([".t2", ".bars", ".logo"], {duration:.3, opacity:0}, `+=${READ.t1}`)
-	}else{
-		tl.to([".t1", ".bars", ".logo"], {duration:.3, opacity:0}, `+=${READ.t1}`)
-	}
-	
+	tl.to([".t1"], {duration:.3, opacity:0}, `+=${READ.t1}`)
+	tl.from('.t2', stag(vh), "+=.3");	
+	tl.to([".t2", ".bars", ".logo"], {duration:.3, opacity:0}, `+=${READ.t1}`)
 
 	tl.from(".end_txt1", {duration:.2, opacity:0})
+	tl.add(olg())
+
+	tl.to(".end_txt1", {duration:.2, opacity:0}, "+=1")
 
 	
  
 
 	tl.from([".end_cta", ".legalBtn",  ".end_logo", ".end_smart"], {duration:.3, opacity:0})
 	
-	tl.add(olg())
+	
 }
 
 function start(boo=true, vh={x:-size.w}){

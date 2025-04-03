@@ -50,8 +50,8 @@ var nba_plus = {
 };
 
 var mlb = {
-	t1: 2.3,
-	t2: 1.9,
+	t1: 3,
+	t2: 2,
 	t3: 1
 };
 
@@ -87,9 +87,9 @@ function start_landscape() {
 	tl.from('.t1', stag(vh), "start+=.3");
 	tl.from('.logo', { opacity: 0, duration: .3 });
 
-	tl.to([".t1"], { duration: .3, opacity: 0 }, "+=" + READ.t1);
+	tl.to([".t1"], { duration: .3, opacity: 0 }, "+=2.2");
 	tl.from('.t2', stag(vh), "+=.3");
-	tl.to([".t2", ".bars", ".logo"], { duration: .3, opacity: 0 }, "+=" + READ.t1);
+	tl.to([".t2", ".bars", ".logo"], { duration: .3, opacity: 0 }, "+=1.8");
 
 	tl.from(".end_txt1", { duration: .2, opacity: 0 });
 	tl.add((0, _proline.olg)());
@@ -116,10 +116,11 @@ function start() {
 
 	tl.to('.frame2', { opacity: 1, duration: .3 }, "+=" + READ.t2);
 
+	tl.from('.end_txt1', { duration: .3, opacity: 0 });
+
 	tl.from('.end_logo', { duration: .3, opacity: 0 });
 
-	tl.from('.end_txt1', { duration: .3, opacity: 0 });
-	tl.from('.end_txt2', { duration: .3, opacity: 0 }, "+=.3");
+	// tl.from('.end_txt2', {duration:.3, opacity:0}, "+=.3");	
 
 	tl.from([".end_cta", ".end_smart"], { duration: .3, opacity: 0 });
 

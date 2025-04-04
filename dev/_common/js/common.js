@@ -2,11 +2,7 @@ import {olg} from "./proline"
 const banner = document.getElementById('banner')
 const size = {w:banner.offsetWidth, h:banner.offsetHeight}
 
-const LEGAL_RETAIL = "Individuals must be 18 years of age or older to participate in in-store sports betting with PROLINE. Individuals must be a resident of Ontario. Terms and Conditions apply."
-const LEGAL_PLUS =   "Individuals must be 19 years of age or older to participate in online sports betting with PROLINE+. Individuals must be a resident of Ontario. Terms and Conditions apply. "
-const legalString = (universalBanner.name.includes("plus")) ? LEGAL_PLUS:LEGAL_RETAIL
 
-document.getElementById("legalContent").innerHTML = legalString
 
 
 

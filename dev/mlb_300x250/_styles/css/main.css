@@ -286,47 +286,6 @@ canvas, .text, .frame, .outline, img {
   position: absolute;
 }
 
-.hero img {
-  -webkit-transform: translate(-11px, -20px) scale(0.67, 0.67);
-  -ms-transform: translate(-11px, -20px) scale(0.67, 0.67);
-  transform: translate(-11px, -20px) scale(0.67, 0.67);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-}
-
-.bar-top {
-  position: absolute;
-  width: 300px;
-  height: 125px;
-  background-color: #00c849;
-  -webkit-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate(0px, 0px);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-}
-
-.bar-bottom {
-  position: absolute;
-  width: 300px;
-  height: 131px;
-  background-color: #d3ef35;
-  -webkit-transform: translate(0px, 245px);
-  -ms-transform: translate(0px, 245px);
-  transform: translate(0px, 245px);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-}
-
 .t3 {
   -webkit-filter: none;
   filter: none;

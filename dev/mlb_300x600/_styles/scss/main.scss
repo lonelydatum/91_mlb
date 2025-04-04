@@ -6,17 +6,3 @@
 
 
 
-#bars{
-	@include pos(0, 382);
-	.bar_7{
-		height: 80px !important;
-	}
-}
-
-#bars2{
-	@include pos(0, 136);
-	.bar_0{
-		height: 160px !important;
-		top:-140px;
-	}
-}

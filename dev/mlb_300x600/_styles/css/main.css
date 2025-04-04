@@ -285,17 +285,6 @@ canvas, .text, .frame, .outline, img {
   position: absolute;
 }
 
-.hero img {
-  -webkit-transform: translate(-31px, -27px) scale(0.67, 0.67);
-  -ms-transform: translate(-31px, -27px) scale(0.67, 0.67);
-  transform: translate(-31px, -27px) scale(0.67, 0.67);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-}
-
 .end_txt2 {
   -webkit-transform: translate(4px, 0px) scale(0.5, 0.5);
   -ms-transform: translate(4px, 0px) scale(0.5, 0.5);
@@ -305,37 +294,6 @@ canvas, .text, .frame, .outline, img {
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
-}
-
-#bars {
-  -webkit-transform: translate(0px, 382px);
-  -ms-transform: translate(0px, 382px);
-  transform: translate(0px, 382px);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-}
-
-#bars .bar_7 {
-  height: 80px !important;
-}
-
-#bars2 {
-  -webkit-transform: translate(0px, 136px);
-  -ms-transform: translate(0px, 136px);
-  transform: translate(0px, 136px);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-}
-
-#bars2 .bar_0 {
-  height: 160px !important;
-  top: -140px;
 }
 
 /*# sourceMappingURL=main.css.map */

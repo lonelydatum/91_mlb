@@ -12,12 +12,6 @@ var _proline = require("./proline");
 var banner = document.getElementById('banner');
 var size = { w: banner.offsetWidth, h: banner.offsetHeight };
 
-var LEGAL_RETAIL = "Individuals must be 18 years of age or older to participate in in-store sports betting with PROLINE. Individuals must be a resident of Ontario. Terms and Conditions apply.";
-var LEGAL_PLUS = "Individuals must be 19 years of age or older to participate in online sports betting with PROLINE+. Individuals must be a resident of Ontario. Terms and Conditions apply. ";
-var legalString = universalBanner.name.includes("plus") ? LEGAL_PLUS : LEGAL_RETAIL;
-
-document.getElementById("legalContent").innerHTML = legalString;
-
 gsap.defaults({
 	ease: "power3.out"
 });

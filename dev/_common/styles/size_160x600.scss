@@ -30,6 +30,6 @@
 	overflow: hidden;
 	@include pos(10, 201);
 	img{
-		@include pos-scale(-29, -17, .85);	
+		// @include pos-scale(-29, -17, .85);	
 	}
 }
